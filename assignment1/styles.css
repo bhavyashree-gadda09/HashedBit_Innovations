@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6d6767;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header .social-links a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .social-links a:hover {
+    text-decoration: underline;
+}
+
+.menubar {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 10px 0;
+}
+
+.menubar a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menubar a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #ddb383;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.sidebar p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+main {
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+main .box {
+    width: calc(33.333% - 20px);
+    border: 1px solid #ddd;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+main .box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+main .box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+main .box p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
